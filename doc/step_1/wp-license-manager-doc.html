@@ -1,0 +1,757 @@
+<!--
+   untitled.html
+   
+   Copyright 2015 Louiedogg <admin@louiedogg.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<!DOCTYPE html><html data-ad-targeting="{&quot;code&quot;:[&quot;cms&quot;,&quot;wordpress&quot;,&quot;css&quot;,&quot;html&quot;,&quot;wordpress-plugins&quot;,&quot;web-development&quot;,&quot;php&quot;]}" data-ads="[{&quot;doubleclick_id&quot;:&quot;11757429&quot;,&quot;unit_name&quot;:&quot;hub_development&quot;,&quot;location&quot;:&quot;inarticle&quot;,&quot;width&quot;:300,&quot;height&quot;:250,&quot;slot_id&quot;:&quot;1392179526912-0&quot;,&quot;mappings&quot;:[]},{&quot;doubleclick_id&quot;:&quot;11757429&quot;,&quot;unit_name&quot;:&quot;hub_development&quot;,&quot;location&quot;:&quot;post_top&quot;,&quot;width&quot;:300,&quot;height&quot;:250,&quot;slot_id&quot;:&quot;1379650391729-0&quot;,&quot;mappings&quot;:[{&quot;viewport&quot;:{&quot;width&quot;:1024,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:980,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:768,&quot;height&quot;:980},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:640,&quot;height&quot;:480},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:480,&quot;height&quot;:640},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]}]},{&quot;doubleclick_id&quot;:&quot;11757429&quot;,&quot;unit_name&quot;:&quot;hub_development&quot;,&quot;location&quot;:&quot;post_mid&quot;,&quot;width&quot;:300,&quot;height&quot;:250,&quot;slot_id&quot;:&quot;1382314910331-0&quot;,&quot;mappings&quot;:[{&quot;viewport&quot;:{&quot;width&quot;:1024,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:980,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:768,&quot;height&quot;:980},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:640,&quot;height&quot;:480},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:480,&quot;height&quot;:640},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]}]},{&quot;doubleclick_id&quot;:&quot;11757429&quot;,&quot;unit_name&quot;:&quot;hub_development&quot;,&quot;location&quot;:&quot;post_comments&quot;,&quot;width&quot;:300,&quot;height&quot;:250,&quot;slot_id&quot;:&quot;1379650407131-0&quot;,&quot;mappings&quot;:[{&quot;viewport&quot;:{&quot;width&quot;:1024,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:980,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:768,&quot;height&quot;:980},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:640,&quot;height&quot;:480},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]},{&quot;viewport&quot;:{&quot;width&quot;:480,&quot;height&quot;:640},&quot;units&quot;:[{&quot;width&quot;:300,&quot;height&quot;:250}]}]},{&quot;location&quot;:&quot;leader&quot;,&quot;unit_name&quot;:&quot;hub_development&quot;,&quot;slot_id&quot;:&quot;1391730982123-0&quot;,&quot;width&quot;:728,&quot;height&quot;:90,&quot;mappings&quot;:[{&quot;viewport&quot;:{&quot;width&quot;:1024,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:728,&quot;height&quot;:90}]},{&quot;viewport&quot;:{&quot;width&quot;:980,&quot;height&quot;:768},&quot;units&quot;:[{&quot;width&quot;:728,&quot;height&quot;:90}]},{&quot;viewport&quot;:{&quot;width&quot;:768,&quot;height&quot;:980},&quot;units&quot;:[{&quot;width&quot;:728,&quot;height&quot;:90}]}],&quot;doubleclick_id&quot;:&quot;11757429&quot;}]" data-app-version="600e45051ffe15fb1047efeb7effd5756f06d185-production"><head><meta charset="utf-8" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27851e2035","applicationID":"3094824","transactionName":"JQpZTURXXlRcRBYWRBIKRVBXVEEXSl5WFQ==","queueTime":0,"applicationTime":89,"agent":"js-agent.newrelic.com/nr-632.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgUFWFRbGwAAXVVaBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:20,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(3),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(4),t(5),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:8,3:3,4:7,5:6,6:21,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:21,2:22,ee:"QJf3ax",gos:"7eSDFh"}],6:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:22,2:21,ee:"QJf3ax"}],7:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:22,2:21,ee:"QJf3ax"}],8:[function(t,e){function n(){u.inPlace(this,p,"fn-")}function r(t,e){u.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),u=c(a),f=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,u.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:5,2:22,ee:"QJf3ax"}],9:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=n(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=n(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var f=0;c>f;f++)e.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:10,3:8,4:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],10:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],11:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:20,2:21,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===f.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=u.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),u=c.document,f=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:f,features:{}};u.addEventListener?(u.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(u.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:20,2:11,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],20:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],21:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],22:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:21,ee:"QJf3ax"}]},{},["G9z0Bl",4,9]);</script><title>Create a License Controlled Theme and Plugin Update System, Part 1: The License Manager Plugin - Tuts+ Code Tutorial</title><link rel="canonical" href="http://code.tutsplus.com/tutorials/create-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621" /><link rel="shortcut icon" type="image/png" href="http://static.tutsplus.com/assets/favicon-8a030f4d875a2a466b06424c2d495ca4.png" /><link rel="apple-touch-icon" type="image/png" href="http://static.tutsplus.com/assets/apple-touch-icon-8a030f4d875a2a466b06424c2d495ca4.png" /><link rel="stylesheet" media="all" href="http://static.tutsplus.com/assets/application-b05810739557951e89695dbc7b98bb89.css" /><script src="https://7200867.collect.igodigital.com/collect.js" async="async"></script><!--[if lte IE 8]><link rel="stylesheet" media="screen" href="http://static.tutsplus.com/assets/ie8-60cf0a9325a4cf96153342dac3a0c330.css" /><script src="http://static.tutsplus.com/assets/modernizr.custom-21d4ec93a3dac71842112f3e789ada34.js"></script><![endif]--><script src="http://static.tutsplus.com/assets/application-85e1e5e7f018883fda317080b01d35ba.js"></script><link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://tutsplus.com/posts.atom" /><meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="iPjp1vAM/y/JLsIkuO+yXjUx9b9goCaZAAQIU3BjxDlTlUT254sRMg3iLBSTKdr2O5pBPZuBtPXKMV0lQIX/uw==" /><meta content="initial-scale=1" name="viewport" /><meta content="index, follow" name="robots" /><meta content="Create a License Controlled Theme and Plugin Update System, Part 1: The License Manager Plugin - Tuts+ Code Tutorial" property="og:title" /><meta content="Code Tuts+" property="og:site_name" /><meta content="1494084460809023" property="fb:app_id" /><meta content="WordPress" name="ET.category" /><meta content="In this first tutorial in our three part series about creating a license controlled plugin and theme update system for WordPress, you will learn how to create a plugin for managing software products and licenses. | Difficulty: Intermediate; Length: Long; Tags: WordPress, WordPress Plugins, PHP, HTML, CSS, CMS, Web Development" property="og:description" /><meta content="article" property="og:type" /><meta content="http://code.tutsplus.com/tutorials/create-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621" property="og:url" /><meta content="In this first tutorial in our three part series about creating a license controlled plugin and theme update system for WordPress, you will learn how to create a plugin for managing software products and licenses. | Difficulty: Intermediate; Length: Long; Tags: WordPress, WordPress Plugins, PHP, HTML, CSS, CMS, Web Development" name="description" /><meta content="https://cms-assets.tutsplus.com/uploads/users/343/posts/22621/preview_image/preview_image.png" property="og:image" /></head><body class="page-body topic-code" data-ga-account="UA-11792865-37" data-ga-domain="tutsplus.com" data-wt-dcsid="dcs222cpd4g6lg7wb3cum8l5g_6w6m"><div class="announcement-bar view" data-announcement-id="Hosting-May" data-background-image="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/296/topics/7/announcement_background_image/hostingbackground.png" data-fallback-background-color="#05212d" data-link-color="#FFFFFF" data-text-color="#66ffcc"><div class="announcement-bar__content"><div class="announcement-bar__primary"><div class="announcement-bar__icon-container"><img class="announcement-bar__icon" src="https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/296/topics/7/announcement_icon/hOSTINiCON.JPG" alt="Hostinicon" /></div><div class="announcement-bar__title">GET HOSTING FROM $3.95/MO PLUS A FREE YEAR ON TUTS+ (RRP $180). <a href="https://www.siteground.com/web-hosting.htm?afcode=39ae9203d4b97b0ee8c892f14fce278c">HURRY OFFER LIMITED.</a> 
+
+<a href="https://www.siteground.com/web-hosting.htm?afcode=39ae9203d4b97b0ee8c892f14fce278c" class="announcement-bar__desktop-only" style="display:inline-block; border-radius:3px; background:#3dd1ac; padding:0px 12px; margin:10px 0 10px 60px; font-size: 13px; height:30px; line-height:30px;text-decoration:none">Check it out</a></div></div><div class="announcement-bar__secondary"><a title="Close this announcement bar" class="announcement-bar__close-link" href="javascript:"><span class="announcement-bar__close-label">Dismiss</span><i class="fa fa-times announcement-bar__close-icon"></i></a></div></div></div><!--[if lt IE 10]><div class="legacy-ie-banner"><h2 class="legacy-ie-banner__title">Unsupported browser</h2><p class="legacy-ie-banner__text">This site was designed for modern browsers and tested with Internet Explorer version 10 and later. </p><p class="legacy-ie-banner__text">It may not look or work correctly on your browser. </p></div><![endif]--><nav class="global-nav view"><div class="global-nav__mobile"><section class="global-nav__mobile-search"><form action="http://tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="text" name="search[terms]" id="search_terms" placeholder="Search Tuts+" class="global-nav__mobile-search-terms" /><button name="button" type="submit" class="global-nav__mobile-search-button"><i class="fa fa-search"></i></button></form></section><ul class="global-nav__mobile-top-level"><li class="global-nav__mobile-top-level-item global-nav__mobile-top-level-item--expanded"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="http://tutsplus.com/tutorials"><span class="global-nav__mobile-top-level-link-title">Free Tutorials</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><ul class="global-nav__mobile-second-level"><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="http://design.tutsplus.com/">Design &amp; Illustration</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="http://code.tutsplus.com/">Code</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="http://webdesign.tutsplus.com/">Web Design</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="http://music.tutsplus.com/">Music &amp; Audio</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="http://photography.tutsplus.com/">Photo &amp; Video</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="http://cgi.tutsplus.com/">3D &amp; Motion Graphics</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-gamedevelopment" href="http://gamedevelopment.tutsplus.com/">Game Development</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-computers" href="http://computers.tutsplus.com/">Computer Skills</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-crafts" href="http://crafts.tutsplus.com/">Crafts &amp; DIY</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="http://business.tutsplus.com/">Business</a></li></ul></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="http://tutsplus.com/courses"><span class="global-nav__mobile-top-level-link-title">Courses</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="http://design.tutsplus.com/courses">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="http://code.tutsplus.com/courses">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="http://webdesign.tutsplus.com/courses">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="http://music.tutsplus.com/courses">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="http://photography.tutsplus.com/courses">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="http://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="http://business.tutsplus.com/courses">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-bundles-link" href="http://tutsplus.com/bundles"><span class="translation_missing" title="translation missing: en.views.courses.courses_menu.bundles">Bundles</span></a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="http://tutsplus.com/ebooks"><span class="global-nav__mobile-top-level-link-title">eBooks</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="http://design.tutsplus.com/ebooks">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="http://code.tutsplus.com/ebooks">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="http://webdesign.tutsplus.com/ebooks">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="http://music.tutsplus.com/ebooks">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="http://photography.tutsplus.com/ebooks">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="http://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-crafts" href="http://crafts.tutsplus.com/ebooks">Crafts &amp; DIY</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="http://business.tutsplus.com/ebooks">Business</a></div></div></li></ul><div class="global-nav__mobile-pricing-button-container"><a class="global-nav__mobile-pricing-button" href="http://tutsplus.com/sign_up">Free Account</a></div><div class="global-nav__mobile-user-links"><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_up?redirect_to=https%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621">Sign Up</a><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621">Sign In</a></div></div><div class="global-nav__header"><div class="global-nav__header-content"><div class="global-nav__header-left"><a class="global-nav__header-tuts-logo-link" href="http://tutsplus.com/"><img alt="tuts+" class="global-nav__header-tuts-logo-image" src="http://static.tutsplus.com/assets/tuts_logo-79176000c077f4191a2cfcc3b312b7ed.svg" /></a><form class="global-nav__search" action="http://tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="global-nav__search-topic-container"><select name="search[topic]" id="search_topic" class="global-nav__search-topic"><option value="">All Topics</option>
+<option value="Design &amp; Illustration">Design &amp; Illustration</option>
+<option value="Code">Code</option>
+<option value="Web Design">Web Design</option>
+<option value="Music &amp; Audio">Music &amp; Audio</option>
+<option value="Photo &amp; Video">Photo &amp; Video</option>
+<option value="3D &amp; Motion Graphics">3D &amp; Motion Graphics</option>
+<option value="Game Development">Game Development</option>
+<option value="Computer Skills">Computer Skills</option>
+<option value="Crafts &amp; DIY">Crafts &amp; DIY</option>
+<option value="Business">Business</option></select></div><div class="global-nav__search-terms-container"><input type="text" name="search[terms]" id="search_terms" placeholder="Find tutorials, courses, and more..." class="global-nav__search-terms" /></div><button name="button" type="submit" class="global-nav__search-button"><div class="icon fa fa-search global-nav__search-icon"></div></button></form><ul class="global-nav__header-list"><li class="global-nav__header-item"><nav class="topics-menu view" data-toggle=".topics-menu__dropdown-toggle"><a class="topics-menu__dropdown-toggle global-nav__header-link global-nav__header-link--primary global-nav__header-link--active" href="http://tutsplus.com/tutorials">Free Tutorials<i class="fa fa-chevron-down"></i></a><ul class="topics-menu__topics"><li class="topics-menu__topic topic-design" data-slug="design"><a class="topics-menu__topic-link topic-design" href="http://design.tutsplus.com/">Design &amp; Illustration<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-design"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-design" href="http://design.tutsplus.com/">Design &amp; Illustration</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/vector">Vector</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/adobe-photoshop">Adobe Photoshop</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/adobe-illustrator">Adobe Illustrator</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/illustration">Illustration</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/tools-tips">Tools &amp; Tips</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/inspiration">Inspiration</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/news">News</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/designing">Designing</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/text-effects">Text Effects</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-design hello" href="http://design.tutsplus.com/categories/web-roundups">Web Roundups</a></li></ul><a class="topics-menu__more-categories-link topic-design" href="http://design.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-design"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-design" href="http://design.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-code" data-slug="code"><a class="topics-menu__topic-link topic-code" href="http://code.tutsplus.com/">Code<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-code"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-code" href="http://code.tutsplus.com/">Code</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/web-development">Web Development</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/wordpress">WordPress</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/mobile-development">Mobile Development</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/php">PHP</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/flash">Flash</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/javascript">JavaScript</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/news">News</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/ios-sdk">iOS SDK</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/android-sdk">Android SDK</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-code hello" href="http://code.tutsplus.com/categories/theme-development">Theme Development</a></li></ul><a class="topics-menu__more-categories-link topic-code" href="http://code.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-code"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-code" href="http://code.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-webdesign" data-slug="webdesign"><a class="topics-menu__topic-link topic-webdesign" href="http://webdesign.tutsplus.com/">Web Design<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-webdesign"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-webdesign" href="http://webdesign.tutsplus.com/">Web Design</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/css">CSS</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/html-css">HTML &amp; CSS</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/adobe-photoshop">Adobe Photoshop</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/complete-websites">Complete Websites</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/html">HTML</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/workflow">Workflow</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/design-theory">Design Theory</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/general">General</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/ui-design">UI Design</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-webdesign hello" href="http://webdesign.tutsplus.com/categories/site-elements">Site Elements</a></li></ul><a class="topics-menu__more-categories-link topic-webdesign" href="http://webdesign.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-webdesign"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-webdesign" href="http://webdesign.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-music" data-slug="music"><a class="topics-menu__topic-link topic-music" href="http://music.tutsplus.com/">Music &amp; Audio<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-music"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-music" href="http://music.tutsplus.com/">Music &amp; Audio</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/audio-production">Audio Production</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/general">General</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/logic-pro">Logic Pro</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/workshops">Workshops</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/mixing-mastering">Mixing &amp; Mastering</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/open-mic">Open Mic</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/sound-design">Sound Design</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/reason">Reason</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/ableton-live">Ableton Live</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-music hello" href="http://music.tutsplus.com/categories/recording">Recording</a></li></ul><a class="topics-menu__more-categories-link topic-music" href="http://music.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-music"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-music" href="http://music.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-photography" data-slug="photography"><a class="topics-menu__topic-link topic-photography" href="http://photography.tutsplus.com/">Photo &amp; Video<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-photography"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-photography" href="http://photography.tutsplus.com/">Photo &amp; Video</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/shooting">Shooting</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/post-processing">Post-Processing</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/photo-critique">Photo Critique</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/adobe-photoshop">Adobe Photoshop</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/inspiration">Inspiration</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/lighting">Lighting</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/news">News</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/lectures">Lectures</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/speedlights">Speedlights</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-photography hello" href="http://photography.tutsplus.com/categories/adobe-lightroom">Adobe Lightroom</a></li></ul><a class="topics-menu__more-categories-link topic-photography" href="http://photography.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-photography"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-photography" href="http://photography.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-cgi" data-slug="cgi"><a class="topics-menu__topic-link topic-cgi" href="http://cgi.tutsplus.com/">3D &amp; Motion Graphics<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-cgi"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-cgi" href="http://cgi.tutsplus.com/">3D &amp; Motion Graphics</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/adobe-after-effects">Adobe After Effects</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/3d">3D</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/motion-graphics">Motion Graphics</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/3d-studio-max">3D Studio Max</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/cinema-4d">Cinema 4D</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/maya">Maya</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/workflow">Workflow</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/news">News</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/visual-effects">Visual Effects</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-cgi hello" href="http://cgi.tutsplus.com/categories/adobe-photoshop">Adobe Photoshop</a></li></ul><a class="topics-menu__more-categories-link topic-cgi" href="http://cgi.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-cgi"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-cgi" href="http://cgi.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-gamedevelopment" data-slug="gamedevelopment"><a class="topics-menu__topic-link topic-gamedevelopment" href="http://gamedevelopment.tutsplus.com/">Game Development<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-gamedevelopment"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-gamedevelopment" href="http://gamedevelopment.tutsplus.com/">Game Development</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/implementation">Implementation</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/game-design">Game Design</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/platform-agnostic">Platform Agnostic</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/business">Business</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/programming">Programming</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/flash">Flash</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/from-scratch">From Scratch</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/news">News</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/construct-2">Construct 2</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-gamedevelopment hello" href="http://gamedevelopment.tutsplus.com/categories/html5">HTML5</a></li></ul><a class="topics-menu__more-categories-link topic-gamedevelopment" href="http://gamedevelopment.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-gamedevelopment"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-gamedevelopment" href="http://gamedevelopment.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-computers" data-slug="computers"><a class="topics-menu__topic-link topic-computers" href="http://computers.tutsplus.com/">Computer Skills<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-computers"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-computers" href="http://computers.tutsplus.com/">Computer Skills</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/os-x">OS X</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/app-training">App Training</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/productivity">Productivity</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/tips-shortcuts">Tips &amp; Shortcuts</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/electronics">Electronics</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/security">Security</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/office">Office</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/automation">Automation</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/hardware">Hardware</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-computers hello" href="http://computers.tutsplus.com/categories/media">Media</a></li></ul><a class="topics-menu__more-categories-link topic-computers" href="http://computers.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-computers"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-computers" href="http://computers.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-crafts" data-slug="crafts"><a class="topics-menu__topic-link topic-crafts" href="http://crafts.tutsplus.com/">Crafts &amp; DIY<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-crafts"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-crafts" href="http://crafts.tutsplus.com/">Crafts &amp; DIY</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/decorations">Decorations</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/homewares">Homewares</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/scissors">Scissors</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/sewing">Sewing</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/yarn">Yarn</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/paper-crafts">Paper Crafts</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/jewellery">Jewellery</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/crochet">Crochet</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/fashion">Fashion</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-crafts hello" href="http://crafts.tutsplus.com/categories/knitting">Knitting</a></li></ul><a class="topics-menu__more-categories-link topic-crafts" href="http://crafts.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-crafts"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-crafts" href="http://crafts.tutsplus.com/series">Learning Guides</a></li></ul></div></li><li class="topics-menu__topic topic-business" data-slug="business"><a class="topics-menu__topic-link topic-business" href="http://business.tutsplus.com/">Business<i class="fa fa-chevron-right topics-menu__topic-link-chevron"></i></a><div class="topics-menu__topic-submenu topic-business"><span class="topics-menu__submenu-title"><a class="topics-menu__submenu-title-link topic-link topic-business" href="http://business.tutsplus.com/">Business</a></span><ul class="topics-menu__featured-categories"><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/freelance">Freelance</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/marketing">Marketing</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/communication">Communication</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/planning">Planning</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/finance">Finance</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/sales">Sales</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/business-finance">Business &amp; Finance</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/entrepreneurship">Entrepreneurship</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/productivity">Productivity</a></li><li class="topics-menu__featured-category"><a class="topics-menu__featured-category-link topic-business hello" href="http://business.tutsplus.com/categories/blogging">Blogging</a></li></ul><a class="topics-menu__more-categories-link topic-business" href="http://business.tutsplus.com/categories">More Categories...</a><ul class="topics-menu__submenu-footer-links topic-business"><li class="topics-menu__submenu-footer-item"><a class="topics-menu__submenu-footer-link topic-business" href="http://business.tutsplus.com/series">Learning Guides</a></li></ul></div></li></ul></nav></li><li class="global-nav__header-item"><nav class="courses-menu view" data-toggle=".courses-menu__dropdown-toggle"><a class="courses-menu__dropdown-toggle global-nav__header-link global-nav__header-link--primary " href="http://tutsplus.com/courses">Courses<i class="fa fa-chevron-down"></i></a><ul class="courses-menu__topics"><li class="courses-menu__topic topic-design" data-slug="design"><a class="courses-menu__topic-link topic-design" href="http://design.tutsplus.com/courses">Design &amp; Illustration</a></li><li class="courses-menu__topic topic-code" data-slug="code"><a class="courses-menu__topic-link topic-code" href="http://code.tutsplus.com/courses">Code</a></li><li class="courses-menu__topic topic-webdesign" data-slug="webdesign"><a class="courses-menu__topic-link topic-webdesign" href="http://webdesign.tutsplus.com/courses">Web Design</a></li><li class="courses-menu__topic topic-music" data-slug="music"><a class="courses-menu__topic-link topic-music" href="http://music.tutsplus.com/courses">Music &amp; Audio</a></li><li class="courses-menu__topic topic-photography" data-slug="photography"><a class="courses-menu__topic-link topic-photography" href="http://photography.tutsplus.com/courses">Photo &amp; Video</a></li><li class="courses-menu__topic topic-cgi" data-slug="cgi"><a class="courses-menu__topic-link topic-cgi" href="http://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></li><li class="courses-menu__topic topic-business" data-slug="business"><a class="courses-menu__topic-link topic-business" href="http://business.tutsplus.com/courses">Business</a></li><a class="courses-menu__topic-link courses-menu__bundles-link" href="http://tutsplus.com/bundles"><span class="translation_missing" title="translation missing: en.views.courses.courses_menu.bundles">Bundles</span></a></ul></nav></li><li class="global-nav__header-item"><nav class="ebooks-menu view" data-toggle=".ebooks-menu__dropdown-toggle"><a class="ebooks-menu__dropdown-toggle global-nav__header-link global-nav__header-link--primary " href="http://tutsplus.com/ebooks">eBooks<i class="fa fa-chevron-down"></i></a><ul class="ebooks-menu__topics"><li class="ebooks-menu__topic topic-design" data-slug="design"><a class="ebooks-menu__topic-link topic-design" href="http://design.tutsplus.com/ebooks">Design &amp; Illustration</a></li><li class="ebooks-menu__topic topic-code" data-slug="code"><a class="ebooks-menu__topic-link topic-code" href="http://code.tutsplus.com/ebooks">Code</a></li><li class="ebooks-menu__topic topic-webdesign" data-slug="webdesign"><a class="ebooks-menu__topic-link topic-webdesign" href="http://webdesign.tutsplus.com/ebooks">Web Design</a></li><li class="ebooks-menu__topic topic-music" data-slug="music"><a class="ebooks-menu__topic-link topic-music" href="http://music.tutsplus.com/ebooks">Music &amp; Audio</a></li><li class="ebooks-menu__topic topic-photography" data-slug="photography"><a class="ebooks-menu__topic-link topic-photography" href="http://photography.tutsplus.com/ebooks">Photo &amp; Video</a></li><li class="ebooks-menu__topic topic-cgi" data-slug="cgi"><a class="ebooks-menu__topic-link topic-cgi" href="http://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></li><li class="ebooks-menu__topic topic-crafts" data-slug="crafts"><a class="ebooks-menu__topic-link topic-crafts" href="http://crafts.tutsplus.com/ebooks">Crafts &amp; DIY</a></li><li class="ebooks-menu__topic topic-business" data-slug="business"><a class="ebooks-menu__topic-link topic-business" href="http://business.tutsplus.com/ebooks">Business</a></li></ul></nav></li><li class="global-nav__header-item"><a class="global-nav__header-link global-nav__header-link--primary global-nav__header-link--blog" href="http://tutsplus.com/blog">Blog</a></li></ul></div><div class="global-nav__header-right"><ul class="global-nav__header-list"><li class="global-nav__header-item"><a class="global-nav__header-link" href="http://tutsplus.com/pricing">Pricing</a></li><li class="global-nav__header-item"><a class="global-nav__header-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621">Sign In</a></li></ul><a class="global-nav__pricing-button" href="http://tutsplus.com/sign_up">Free Account</a></div></div></div><div class="global-nav__mobile-toggle"><a class="global-nav__mobile-toggle-link" href="javascript:"><i class="fa fa-reorder"></i></a></div></nav><div class="ad view ad--leaderboard"><div class="ad__wrapper"><div class="ad__content" id="div-gpt-1391730982123-0"></div><div class="ad__label">Advertisement</div></div></div><div class="page-content"><main class="content"><div class="section-header view"><div class="section-header__navigation"><div class="section-header__topic"><a class="section-header__topic-link topic-link topic-code" href="http://code.tutsplus.com/"><div class="section-header__section-icon section-header__section-icon--tutorials"></div>Code</a></div><ul class="section-header__nav-links"><li class="section-header__nav-link section-header__nav-link--dropdown"><div class="section-header__categories-menu"><a class="section-header__categories-menu-toggle" href="javascript:"><span class="section-header__categories-menu-title">Categories</span> <i class="fa fa-chevron-down"></i></a><ul class="section-header__categories-menu-items"><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/web-development">Web Development</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/wordpress">WordPress</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/mobile-development">Mobile Development</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/php">PHP</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/flash">Flash</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/javascript">JavaScript</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/news">News</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/ios-sdk">iOS SDK</a></li><li class="section-header__categories-menu-item"><a class="section-header__categories-menu-link" href="http://code.tutsplus.com/categories/android-sdk">Android SDK</a></li><li class="section-header__categories-menu-more"><a class="section-header__categories-menu-link section-header__categories-menu-more-link" href="http://code.tutsplus.com/categories">More...</a></li></ul></div></li><li class="section-header__nav-link section-header__nav-link--direct"><a href="http://code.tutsplus.com/categories">Categories</a></li><li class="section-header__nav-link section-header__nav-link--dropdown"><div class="section-header__learning-guides-menu"><a class="section-header__learning-guides-menu-toggle" href="javascript:"><span class="section-header__learning-guides-menu-title">Learning Guides</span> <i class="fa fa-chevron-down"></i></a><ul class="section-header__learning-guides-menu-items"><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/learn-android-sdk-from-scratch--mobile-21677">Learn Android SDK From Scratch</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/making-the-perfect-wordpress-theme--wp-33987">Making the Perfect WordPress Theme</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/refactoring-legacy-code--cms-633">Refactoring Legacy Code</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/the-solid-principles--cms-634">The SOLID Principles</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/learn-ios-sdk-development-from-scratch--mobile-14536">Learn iOS SDK Development From Scratch</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/an-introduction-to-xamarin--cms-642">An Introduction to Xamarin</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/css3-mastery--net-18126">CSS3 Mastery</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/strange-and-unusual-html--cms-616">Strange and Unusual HTML</a></li><li class="section-header__learning-guides-menu-item"><a class="section-header__learning-guides-menu-link" href="http://code.tutsplus.com/series/working-with-symfony-2--cms-636">Working with Symfony 2</a></li><li class="section-header__learning-guides-menu-more"><a class="section-header__learning-guides-menu-link section-header__learning-guides-menu-more-link" href="http://code.tutsplus.com/series">More...</a></li></ul></div></li><li class="section-header__nav-link section-header__nav-link--direct"><a href="http://code.tutsplus.com/series">Learning Guides</a></li><li class="section-header__nav-link"><a href="http://experts.tutsplus.com/collections/code/?ec_promo=tutsnav">Expert Help</a><sup class="section-header__new">New!</sup></li></ul></div></div><article class="post tutorial"><div class="post__inarticle-ad-template" style="display: none"><div class="ad view ad--inarticle"><div class="ad__wrapper"><div class="ad__content" id="div-gpt-1392179526912-0"></div><div class="ad__label">Advertisement</div></div></div></div><div class="layout__offset-content-with-sidebar layout__offset-content-with-sidebar--post"><div class="post__header"><div class="content-header view content-header--post"><div class="content-header__category"><a class="content-header__category-link" href="http://code.tutsplus.com/categories/wordpress">WordPress</a></div><h1 class="content-header__title">Create a License Controlled Theme and Plugin Update System, Part 1: The License Manager Plugin</h1><div class="content-header__publication-meta"><span class="content-header__author-by"></span>by <span class="content-header__author"><a class="content-header__author-link" rel="author" href="http://tutsplus.com/authors/jarkko-laine">Jarkko Laine</a></span><time class="content-header__publication-date" datetime="2015-02-02T12:00:17Z" title="2 Feb 2015">2 Feb 2015</time><span class="content-header__comment-count"><i class="icon tutsicon-comment content-header__comment-icon"></i><a data-disqus-identifier="22621" class="content-header__comment-count-link" href="#disqus_thread"></a></span></div><div class="content-header__social-share-links"><ul class="social-share-links"><li class="social-share-links__item"><a title="Share on Facebook" class="social-share-links__link social-share-links__link--facebook" href="https://www.facebook.com/dialog/feed?app_id=1494084460809023&amp;link=http%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621&amp;display=page&amp;name=Create%20a%20License%20Controlled%20Theme%20and%20Plugin%20Update%20System%2C%20Part%201%3A%20The%20License%20Manager%20Plugin&amp;redirect_uri=http%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621"><i class="fa fa-facebook-square social-share-links__icon"></i><div class="social-share-links__count">48</div></a></li><li class="social-share-links__item"><a target="_blank" title="Share on Twitter" class="social-share-links__link social-share-links__link--twitter" href="https://twitter.com/intent/tweet?text=Create%20a%20License%20Controlled%20Theme%20and%20Plugin%20Update%20System%2C%20Part%201%3A%20The%20License%20Manager%20Plugin&amp;url=http%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621&amp;via=tutsplus"><i class="fa fa-twitter social-share-links__icon"></i><div class="social-share-links__count">149</div></a></li><li class="social-share-links__item"><a target="_blank" title="Share on Google+" class="social-share-links__link social-share-links__link--google-plus" href="https://plus.google.com/share?url=http%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621"><i class="fa fa-google-plus social-share-links__icon"></i><div class="social-share-links__count">9</div></a></li><li class="social-share-links__item"><a target="_blank" title="Pin on Pinterest" class="social-share-links__link social-share-links__link--pinterest" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fcode.tutsplus.com%2Ftutorials%2Fcreate-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621&amp;description=Create%20a%20License%20Controlled%20Theme%20and%20Plugin%20Update%20System%2C%20Part%201%3A%20The%20License%20Manager%20Plugin&amp;media=https%3A%2F%2Fcms-assets.tutsplus.com%2Fuploads%2Fusers%2F343%2Fposts%2F22621%2Fpreview_image%2Fpreview_image.png"><i class="fa fa-pinterest social-share-links__icon"></i><div class="social-share-links__count--blank">Share</div></a></li></ul></div></div></div><div class="post-body view"><div class="post-body__series-navigation"><div class="post-body__series-navigation-description">This post is part of a series called <a href="http://code.tutsplus.com/series/create-a-license-controlled-theme-and-plugin-update-system--cms-760">Create a License Controlled Theme and Plugin Update System</a>.</div><div class="post-body__series-navigation-item"><a class="post-body__series-navigation-next-link" href="/tutorials/create-a-license-controlled-plugin-and-theme-update-system-part-2-the-license-manager-api--cms-22674">Create a License Controlled Plugin and Theme Update System — Part 2: The License Manager API</a></div></div><div class="post-body__body"><script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script><div class="post-body__content"><p>As great as the official WordPress theme and plugin directories are, there are times when you don't want to use them for distributing your plugin or theme. Maybe it's because you are selling your plugins or themes, or maybe you just want to keep them to yourself, making them only available within your organization or group of friends. </p><p>But what about updates?</p><p>If you are the only user, just uploading the plugin or theme manually works quite well. But when you have more users than that, using the <strong>Updates</strong> admin page inside WordPress would come in handy.</p><p>The <em>WordPress Updates</em> functionality has been designed with just the official WordPress plugin and theme directories in mind, but no worries: WordPress has actions and filters that make it possible for us to hook into that functionality and add a server of our own in the mix.</p><h2>What You'll Learn</h2><p>In this first tutorial in the series, we will start by creating a WordPress plugin to turn your website into a license management server. In part two, we will continue building the plugin by adding an API to it. In part three, we will use the API to make a WordPress plugin or theme talk back to the license manager for updates. </p><p>While creating the plugin, in this first part, you will learn about the following WordPress plugin development techniques: </p><ul>
+<li>Using the WordPress Plugin Boilerplate to get started quickly. </li>
+<li>Creating a new custom post type with a meta box for storing custom meta data.</li>
+<li>Creating a maintainable database table for your plugin.</li>
+<li>Adding items to that database table.</li>
+<li>Listing items using WordPress's own list table implementation.</li>
+</ul><p>If you want to see the plugin in action, you can download the most recent version of the plugin from <a href="https://wordpress.org/plugins/wp-license-manager/" target="_self">WordPress.org</a>. For the exact source code used in this tutorial, check out the linked Tuts+ Github repository (on the right). We'll go through every step of creating the plugin one by one, but if you don't want to build everything from the ground up, following along with the source code is a good way to organize your learning.</p><p>Now, let's get to work.</p><h2>
+<span class="sectionnum">1.</span> Create the Plugin Using the WordPress Plugin Boilerplate</h2><p>Getting started with a new WordPress plugin consists of a lot of repetitive work that you do over and over again with every plugin you create, such as writing new code or copying and cleaning up old projects. </p><p>But there is a better way. </p><p>This time, instead of copying an existing project or starting from scratch, we will use Tom McFarlin's <a href="http://wppb.io" target="_self">WordPress Plugin Boilerplate</a>, a starting point designed to get you started with a well structured, object-oriented WordPress plugin in no time.  </p><p>So, before we start adding our own functionality, let's set up the basic plugin using the plugin boilerplate.</p><h3>Download the Boilerplate and Make It Your Own</h3><p>The easiest way to download the plugin boilerplate is to visit <a href="http://wppb.io" target="_self">the project's web site</a> and download the latest version as a zip file. </p><p>Once you have downloaded and unpacked the zip package, locate the <code class="inline">trunk</code> folder inside it, copy it to your preferred location and rename it <code class="inline">wp-license-manager</code>. </p><p>Then, it's time to go through the plugin boilerplate files and make them our own:</p><ol>
+<li>Go through all of the files in the plugin directory (and its subdirectories) renaming all occurrences of <code class="inline">plugin-name</code> to <code class="inline">wp-license-manager</code> and <code class="inline">Plugin_Name</code> to <code class="inline">Wp_License_Manager</code>. Make sure to rename both the class names and their containing files. This will take a little bit of time and manual work, so using a PHP IDE to help in the renaming is a good idea.</li>
+<li>Add the plugin's information to the plugin bootstrap file, now called <code class="inline">wp‑license-manager.php</code> and located in the plugin's root directory. You'll find the information in the comment block at the top of the file, right after the PHPDoc tag <code class="inline">@wordpress-plugin</code>.</li>
+</ol><p>Now, you have created an empty plugin with some basic configuration, and it's just waiting for you to start adding functionality. It's time to build our license manager! </p><p>If you want to read more about using the boilerplate, check Tom McFarlin's tutorial series, <a href="https://code.tutsplus.com/articles/developing-plugins-with-wordpress-boilerplates-building-a-plugin--wp-29300" target="_self">Developing Plugins With WordPress Boilerplates</a>. It's based on an earlier version of the boilerplate, but will still give you a deeper understanding of the ideas behind a plugin boilerplate and working with one.</p><h2>
+<span class="sectionnum">2.</span> Create a Custom Post Type for Products</h2><p>Our license manager plugin is quite simple and will store and use just two types of data: <em>products</em> and <em>licenses</em>. As products are required for creating licenses (and products are the easier of the two), that's where we'll start.</p><p>Here's what you will be building in this section:</p><figure class="post_image"><img alt="WordPress plugin screenshot" src="https://cms-assets.tutsplus.com/uploads/users/343/posts/22621/image/img1.jpg"></figure><p>A <em>product</em> will represent a WordPress plugin or theme you want to manage through your license manager server. Just like a blog post or page, a product has a name and a description. In addition to this, it has a number of additional fields for defining product specific information:<br></p><ul>
+<li>
+<strong>Version</strong>: The product's version number. This field will be used for checking for updates in parts two and three of this tutorial series.</li>
+<li>
+<strong>File bucket</strong>: The Amazon S3 bucket in which the file is stored. </li>
+<li>
+<strong>File name</strong>: The file name of the product zip stored in Amazon S3. We'll talk about these file options in part two of the series.</li>
+<li>
+<strong>Tested with WordPress version</strong>, <strong>Requires WordPress version</strong>, <strong>Last updated</strong>,<strong> Banner high</strong>, and<strong> Banner low</strong>: These options are shown in the plugin update UI in part three of the tutorial series.</li>
+</ul><p>Now, let's build this by creating a custom post type and adding a meta box to it.</p><h3>Step 1: Create the Post Type</h3><p>The plugin boilerplate divides the plugin's functionality logically into two sections: public facing functionality and admin functionality. While this separation makes sense in most cases, post types are somewhere in between, and you could argue for placing them in either of the two. I decided to go with public.<br></p><p>So, look up the function <code class="inline">define_public_hooks</code> inside the class <code class="inline">Wp_License_Manager</code> in <code class="inline">includes/class-wp-license-manager.php</code>, and add the following new action right after the two <code class="inline">wp_enqueue_scripts</code> actions already present:</p><pre class="brush: plain noskimlinks noskimwords">$this-&gt;loader-&gt;add_action( 'init', $plugin_public, 'add_products_post_type' );</pre><p>This line uses the boilerplate's action and filter loader to add an action handler to the WordPress action <code class="inline">init</code>. The function, <code class="inline">add_products_post_type</code>, goes into the class <code class="inline">Wp_License_Manager_Public</code>. </p><p>Here's the entire function:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Register the new "products" post type to use for products that
+ * are available for purchase through the license manager.
+ */
+public function add_products_post_type() {
+    register_post_type( 'wplm_product',
+        array(
+            'labels' =&gt; array(
+                'name' =&gt; __( 'Products', $this-&gt;plugin_name ),
+                'singular_name' =&gt; __( 'Product', $this-&gt;plugin_name ),
+                'menu_name' =&gt; __( 'Products', $this-&gt;plugin_name ),
+                'name_admin_bar' =&gt; __( 'Products', $this-&gt;plugin_name ),
+                'add_new' =&gt; __( 'Add New', $this-&gt;plugin_name ),
+                'add_new_item' =&gt; __( 'Add New Product', $this-&gt;plugin_name ),
+                'edit_item' =&gt; __( 'Edit Product', $this-&gt;plugin_name ),
+                'new_item' =&gt; __( 'New Product', $this-&gt;plugin_name ),
+                'view_item' =&gt; __( 'View Product', $this-&gt;plugin_name ),
+                'search_item' =&gt; __( 'Search Products', $this-&gt;plugin_name ),
+                'not_found' =&gt; __( 'No products found', $this-&gt;plugin_name ),
+                'not_found_in_trash' =&gt; __( 'No products found in trash', $this-&gt;plugin_name ),
+                'all_items' =&gt; __( 'All Products', $this-&gt;plugin_name ),
+            ),
+            'public' =&gt; true,
+            'has_archive' =&gt; true,
+            'supports' =&gt; array( 'title', 'editor', 'author', 'revisions', 'thumbnail' ),
+            'rewrite' =&gt; array( 'slug' =&gt; 'products' ),
+            'menu_icon' =&gt; 'dashicons-products',
+        )
+    );
+}</pre><p>Let's go through the function and what it does—in other words, the parameters to the WordPress function <code class="inline">register_post_type</code>.</p><p>The first parameter, <code class="inline">$post_type</code>, (<strong>line 6</strong>) defines the identifier of the post type used in the WordPress admin links and querying posts of this type (I went with <code class="inline">wplm_product</code> to keep it from colliding with post types created by other plugins and themes).</p><p>The second parameter (<strong>lines 7–28</strong>) is an array that defines the properties of the post type (for a full list of options you can use, check the <a href="http://codex.wordpress.org/Function_Reference/register_post_type" target="_self">WordPress Codex</a>):</p><ul>
+<li>
+<code class="inline">labels</code> defines a set of string labels used for referring to the post type in the WordPress admin area.</li>
+<li>
+<code class="inline">public</code> defines the visibility of the posts of this new type. I wanted products to be browsable by people visiting the site so I set this to <code class="inline">true</code>. If, on the other hand, you want to keep products a private thing, just set this option to <code class="inline">false</code>.</li>
+<li>
+<code class="inline">has_archive</code> defines whether WordPress serves an archive page for listing the posts of this type or not.</li>
+<li>
+<code class="inline">supports</code> defines which post editing features are shown in the post editor.</li>
+<li>
+<code class="inline">rewrite</code> defines how permalinks for this product type will look. </li>
+<li>
+<code class="inline">menu_icon</code> defines the icon to use for the post type in the admin menu. Visit the WordPress Developer site for <a href="https://developer.wordpress.org/resource/dashicons/#smiley" target="_self">a full list of dashboard icons available</a>.</li>
+</ul><p>Listing, adding, and editing products are now all handled by WordPress. What's left for us to do is to add the meta box with the custom settings listed above.</p><h3>Step 2: Add a Meta Box for Product Information</h3><p>Now that we have created the custom post type for products, we have everything we need for storing products in the license management system. But to make the post type more usable, let's continue by adding a meta box for the product specific information.</p><p>Here's what the meta box will look like:</p><figure class="post_image"><img alt="Meta box for Product Information" src="https://cms-assets.tutsplus.com/uploads/users/343/posts/22621/image/img2.jpg"></figure><p>First, let's pick an action for adding the meta box. <code class="inline">add_meta_boxes_{post_type}</code> is a great choice: simply add the post type in place of <code class="inline">{post_type}</code> and your action gets called just when it's time to add meta boxes for a post of this given type (in our case, <code class="inline">wplm_product</code>).</p><p>As we're working on the admin area, add the following code in the function <code class="inline">define_admin_hooks()</code> inside the main plugin class <code class="inline">Wp_License_Manager</code>:</p><pre class="brush: php noskimlinks noskimwords">$this-&gt;loader-&gt;add_action( 'add_meta_boxes_wplm_product', $plugin_admin, 'add_product_information_meta_box' );</pre><p>The function, <code class="inline">add_product_information_meta_box()</code> in <code class="inline">Wp_License_Manager_Admin</code>, simply defines the meta box and a rendering function for displaying its content:<br></p><pre class="brush: php noskimlinks noskimwords">/**
+ * Registers a meta box for entering product information. The meta box is
+ * shown in the post editor for the "product" post type.
+ *
+ * @param   $post   WP_Post The post object to apply the meta box to
+ */
+public function add_product_information_meta_box( $post ) {
+    add_meta_box(
+        'product-information-meta-box',
+        __( 'Product Information', $this-&gt;plugin_name ),
+        array( $this, 'render_product_information_meta_box' ),
+        'wplm_product',
+        'side'
+    );
+}</pre><p>The function contains just a call to the WordPress function <code class="inline">add_meta_box</code> that will define the meta box. The parameters in order of appearance are the following:</p><ol>
+<li>
+<code class="inline">$id</code>: The HTML id field value for the meta box element.</li>
+<li>
+<code class="inline">$title</code>: The title of the meta box, shown at the top of the box.</li>
+<li>
+<code class="inline">$callback</code>: The function that will do the meta box rendering.</li>
+<li>
+<code class="inline">$post_type</code>: The post type of the page editor on which this meta box should be shown.</li>
+<li>
+<code class="inline">$context</code>: Where the meta box should be placed ('normal', 'advanced', or 'side').</li>
+</ol><p>Next, add the rendering function we defined in the third parameter:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Renders the product information meta box for the given post (wplm_product).
+ *
+ * @param $post     WP_Post     The WordPress post object being rendered.
+ */
+public function render_product_information_meta_box( $post ) {
+    $product_meta = get_post_meta( $post-&gt;ID, 'wp_license_manager_product_meta', true );
+
+    if ( ! is_array( $product_meta ) ) {
+        $product_meta = array(
+            'file_bucket' =&gt; '',
+            'file_name' =&gt; '',
+            'version' =&gt; '',
+            'tested' =&gt; '',
+            'requires' =&gt; '',
+            'updated' =&gt; '',
+            'banner_low' =&gt; '',
+            'banner_high' =&gt; ''
+        );
+    }
+
+    $this-&gt;render_nonce_field( 'product_meta_box' );
+
+    require( 'partials/product_meta_box.php' );
+}</pre><p><strong>Line 7:</strong> The function begins by reading in the current meta data.<br></p><p><strong>Lines 9–20</strong>: If the meta data is empty (it is at this point, actually...), create a default meta data array with empty values.</p><p><strong>Line 22:</strong> Print out a nonce field that will be used for some added security when saving the meta data. <code class="inline">render_nonce_field</code> is a helper function I created to help me with remembering the nonce's name. We'll add it in a little while.</p><p><strong>Line 24:</strong> Include the actual meta box HTML. The <code class="inline">partials</code> directory is a part of the WordPress plugin boilerplate and meant for separating HTML code from the PHP. Here's how the template file for the meta box should look: </p><pre class="brush: php noskimlinks noskimwords">&lt;?php
+/**
+ * The view for the plugin's product meta box. The product meta box is used for
+ * entering additional product information (version, file bucket, file name).
+ *
+ * @package    Wp_License_Manager
+ * @subpackage Wp_License_Manager/admin/partials
+ */
+?&gt;
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_version"&gt;
+        &lt;?php _e( 'Version:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_version"
+           name="wp_license_manager_product_version"
+           value="&lt;?php echo esc_attr( $product_meta['version'] ); ?&gt;"
+           size="25" &gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_tested"&gt;
+        &lt;?php _e( 'Tested with WordPress version:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_tested"
+           name="wp_license_manager_product_tested"
+           value="&lt;?php echo esc_attr( $product_meta['tested'] ); ?&gt;"
+           size="25" &gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_requires"&gt;
+        &lt;?php _e( 'Requires WordPress version:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_requires"
+           name="wp_license_manager_product_requires"
+           value="&lt;?php echo esc_attr( $product_meta['requires'] ); ?&gt;"
+           size="25" &gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_updated"&gt;
+        &lt;?php _e( 'Last updated:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_updated"
+           name="wp_license_manager_product_updated"
+           value="&lt;?php echo esc_attr( $product_meta['updated'] ); ?&gt;"
+           size="25" &gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_banner_low"&gt;
+        &lt;?php _e( 'Banner low:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_banner_low"
+           name="wp_license_manager_product_banner_low"
+           value="&lt;?php echo esc_attr( $product_meta['banner_low'] ); ?&gt;"
+           size="25" &gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_banner_high"&gt;
+        &lt;?php _e( 'Banner high:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_banner_high"
+           name="wp_license_manager_product_banner_high"
+           value="&lt;?php echo esc_attr( $product_meta['banner_high'] ); ?&gt;"
+           size="25" &gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_bucket"&gt;
+        &lt;?php _e( 'Amazon S3 Bucket:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_bucket"
+           name="wp_license_manager_product_bucket"
+           value="&lt;?php echo esc_attr( $product_meta['file_bucket'] ); ?&gt;"
+           size="25" /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;label for="wp_license_manager_product_file_name"&gt;
+        &lt;?php _e( 'Amazon S3 File Name:', $this-&gt;plugin_name ); ?&gt;
+    &lt;/label&gt;
+    &lt;input type="text" id="wp_license_manager_product_file_name"
+           name="wp_license_manager_product_file_name"
+           value="&lt;?php echo esc_attr( $product_meta['file_name'] ); ?&gt;"
+           size="25" /&gt;
+&lt;/p&gt;</pre><p>The template is rather straightforward HTML, a series of labels followed by input elements with their values read from the <code class="inline">$product_meta</code> array we retrieved in the function above.</p><p>Now, with the meta box created, let's take care of saving its data.</p><h3>Step 3: Save the Meta Box Data</h3><p>As you have probably noticed by now, when developing a WordPress plugin, adding a new piece of functionality always begins with finding a suitable action or filter for it. </p><p>This is true also for saving the meta box data.</p><p>This time, the action to hook to is <code class="inline">save_post</code>, an action that is activated whenever a post is saved in the WordPress admin. Again, in the class <code class="inline">Wp_License_Manager</code> and its function <code class="inline">define_admin_hooks()</code>, add a new line:</p><pre class="brush: php noskimlinks noskimwords">$this-&gt;loader-&gt;add_action( 'save_post', $plugin_admin, 'save_product_information_meta_box' );</pre><p>The function, <code class="inline">save_product_information_meta_box</code>, goes in the <code class="inline">Wp_License_Manager_Admin</code> class:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Saves the product information meta box contents.
+ *
+ * @param $post_id  int     The id of the post being saved.
+ */
+public function save_product_information_meta_box( $post_id ) {
+    if ( ! $this-&gt;is_nonce_ok( 'product_meta_box' ) ) {
+        return $post_id;
+    }
+
+    // Ignore auto saves
+    if ( defined( 'DOING_AUTOSAVE' ) &amp;&amp; DOING_AUTOSAVE ) {
+        return $post_id;
+    }
+
+    // Check the user's permissions
+    if ( !current_user_can( 'edit_posts', $post_id ) ) {
+        return $post_id;
+    }
+
+    // Read, sanitize, and store user input
+    $meta = get_post_meta( $post_id, 'wp_license_manager_product_meta', true );
+    if ( $meta == '' ) {
+        $meta = array();
+    }
+
+    $meta['file_bucket'] = sanitize_text_field( $_POST['wp_license_manager_product_bucket'] );
+    $meta['file_name'] = sanitize_text_field( $_POST['wp_license_manager_product_file_name'] );
+    $meta['version'] = sanitize_text_field( $_POST['wp_license_manager_product_version'] );
+    $meta['tested'] = sanitize_text_field( $_POST['wp_license_manager_product_tested'] );
+    $meta['requires'] = sanitize_text_field( $_POST['wp_license_manager_product_requires'] );
+    $meta['updated'] = sanitize_text_field( $_POST['wp_license_manager_product_updated'] );
+    $meta['banner_low'] = sanitize_text_field( $_POST['wp_license_manager_product_banner_low'] );
+    $meta['banner_high'] = sanitize_text_field( $_POST['wp_license_manager_product_banner_high'] );
+
+    // Update the meta field
+    update_post_meta( $post_id, 'wp_license_manager_product_meta', $meta );
+}</pre><p>Let's go through the function to see what it does:</p><ul>
+<li>
+<strong>Lines 7–9:</strong> As you remember, we added a nonce field right before rendering the product meta box. In this function, we use that nonce to verify that the person who is posting the data is coming from that form (we'll add the function <code class="inline">is_nonce_ok</code> soon).</li>
+<li>
+<strong>Lines 11–14:</strong> Don't save the meta box data when WordPress is doing its periodic auto saves. This is because by default, WordPress doesn't pass the meta box data when it makes an AJAX call to do the autosave, and so updating the meta box data at that point would mess things up.</li>
+<li>
+<strong>Lines 16–19:</strong> Only allow saving the data if the user can edit posts. One thing to consider in the future would be adding a custom capability for editing license manager products.</li>
+<li>
+<strong>Lines 22–25:</strong> Read the existing product meta data, or create a new data array if no meta data has been saved yet (<code class="inline">get_post_meta</code> returns an empty string when the meta data item isn't found and the third parameter is set to <code class="inline">true</code>).</li>
+<li>
+<strong>Lines 27–34</strong>: Read in the submitted data, doing some basic sanitation.</li>
+<li>
+<strong>Line 37:</strong> Everything is OK, save the data.</li>
+</ul><p>Now, before we move on to licenses, let's do that one final thing I've been promising and add the helper functions for rendering and verifying the meta box nonce. </p><p>First, creating one:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * A helper function for creating and rendering a nonce field.
+ *
+ * @param   $nonce_label  string  An internal (shorter) nonce name
+ */
+private function render_nonce_field( $nonce_label ) {
+    $nonce_field_name = $this-&gt;plugin_name . '_' . $nonce_label . '_nonce';
+    $nonce_name = $this-&gt;plugin_name . '_' . $nonce_label;
+
+    wp_nonce_field( $nonce_name, $nonce_field_name );
+}</pre><p>The core of this function is the call to <code class="inline">wp_nonce_field</code> that does the actual work of creating the one-time token used for the nonce and writing it out in a hidden HTML field.</p><p>Then, the check:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * A helper function for checking the product meta box nonce.
+ *
+ * @param   $nonce_label string  An internal (shorter) nonce name
+ * @return  mixed   False if nonce is not OK. 1 or 2 if nonce is OK (@see wp_verify_nonce)
+ */
+private function is_nonce_ok( $nonce_label ) {
+    $nonce_field_name = $this-&gt;plugin_name . '_' . $nonce_label . '_nonce';
+    $nonce_name = $this-&gt;plugin_name . '_' . $nonce_label;
+
+    if ( ! isset( $_POST[ $nonce_field_name ] ) ) {
+        return false;
+    }
+
+    $nonce = $_POST[ $nonce_field_name ];
+
+    return wp_verify_nonce( $nonce, $nonce_name );
+}</pre><p>The nonce checking function uses the same naming conventions from the function above, and then uses them to retrieve the nonce from the submitted form data (<strong>lines 11–15</strong>). Then, if the nonce is found, it uses the WordPress function <code class="inline">wp_verify_nonce</code> to check that the submitted code matches the saved one (<strong>line 17</strong>).</p><h2>
+<span class="sectionnum">3.</span> Add Licenses</h2><p>We are now about halfway through this first tutorial in the series: products are in place and it's time to take a look at licenses.</p><p>A license at its simplest consists of two elements: <em>a license key</em> and <em>a user id</em> (we'll use an email address for it). For more control over the license, we'll also add a third element: a license <em>expiration date</em>, a date after which the license is no longer valid and will not receive updates from our license manager server. </p><p>The admin UI for licenses will be quite similar to the one we created for products: a list of licenses and an option for creating new ones. The implementation, however, will be quite different: while a product matches the post metaphor nicely and was therefore natural to implement as a custom post type, licenses are best implemented using a database table of their own.</p><h3>Step 1: Create a Database Table</h3><p>Building the licenses functionality begins with creating the database table that will hold the licenses. The most natural time for creating a new database table is right at plugin activation, before the user has the chance to try and do anything with the table.</p><p>The WordPress Plugin Boilerplate makes this easy by providing an empty function that we can start writing our code in. The function, <code class="inline">activate</code>, in the class <code class="inline">Wp_License_Manager_Activator</code>, is called every time the plugin is activated, either by clicking on <strong>Activate </strong>in the <strong>Plugins</strong> menu or when a plugin update finishes. </p><p>First, add the following variable definition at the top of the class:</p><pre class="brush: plain noskimlinks noskimwords">/**
+ * The database version number. Update this every time you make a change to the database structure.
+ *
+ * @access   protected
+ * @var      string    $db_version   The database version number
+ */
+protected static $db_version = 1;</pre><p>And then, update the activation function with the following code:<br></p><pre class="brush: php noskimlinks noskimwords">/**
+ * Code that is run at plugin activation.
+ */
+public static function activate() {
+    // Update database if db version has increased
+    $current_db_version = get_option( 'wp-license-manager-db-version' );
+    if ( ! $current_db_version ) {
+        $current_db_version = 0;
+    }
+
+    if ( intval( $current_db_version ) &lt; Wp_License_Manager_Activator::$db_version ) {
+        if ( Wp_License_Manager_Activator::create_or_upgrade_db() ) {
+            update_option( 'wp-license-manager-db-version', Wp_License_Manager_Activator::$db_version );
+        }
+    }
+}</pre><p>Here's what the function does:</p><p><strong>Lines 6–9:</strong> Read in the option <code class="inline">wp-license-manager-db-version</code>. We will use this option to store the plugin's database version currently active on the site.</p><p><strong>Line 11:</strong> Compare the current database version with the one defined in the plugin's codebase (<code class="inline">$db_version</code>, defined above). If the version number set in the plugin's code is higher than the one stored in WordPress options, a database update is needed. </p><p><strong>Line 12:</strong> Run the database update.</p><p><strong>Line 13:</strong> If the database update was successful, update the option <code class="inline">wp-license-manager-db-version</code> to match with the version in code.  </p><p>Now, we have created a system for keeping track of database versions and can move to creating the database table. Add the following function to <code class="inline">Wp_License_Manager_Activator</code>:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Creates the database tables required for the plugin if 
+ * they don't exist. Otherwise updates them as needed.
+ *
+ * @return bool true if update was successful.
+ */
+private static function create_or_upgrade_db() {
+    global $wpdb;
+
+    $table_name = $wpdb-&gt;prefix . 'product_licenses';
+        
+    $charset_collate = '';
+    if ( ! empty( $wpdb-&gt;charset ) ) {
+        $charset_collate = "DEFAULT CHARACTER SET {$wpdb-&gt;charset}";
+    }
+    if ( ! empty( $wpdb-&gt;collate ) ) {
+        $charset_collate .= " COLLATE {$wpdb-&gt;collate}";
+    }
+
+    $sql = "CREATE TABLE " . $table_name . "("
+         . "id mediumint(9) NOT NULL AUTO_INCREMENT, "
+         . "product_id mediumint(9) DEFAULT 0 NOT NULL,"
+         . "license_key varchar(48) NOT NULL, "
+         . "email varchar(48) NOT NULL, " 
+         . "valid_until datetime DEFAULT '0000-00-00 00:00:00' NOT NULL, "
+         . "created_at datetime DEFAULT '0000-00-00 00:00:00' NOT NULL, "
+         . "updated_at datetime DEFAULT '0000-00-00 00:00:00' NOT NULL, "
+         . "UNIQUE KEY id (id)"
+         . ")" . $charset_collate. ";";
+
+    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+    dbDelta( $sql );
+
+    return true;
+}</pre><p>Most of this function is about creating the SQL <code class="inline">CREATE TABLE</code> query that we will use for creating the database table:</p><p><strong>Line 10:</strong> Construct the name for the database table.</p><p><strong>Lines 12–18:</strong> Some charset definitions that will be used in the final SQL.</p><p><strong>Lines 20–29:</strong> The SQL for the <code class="inline">CREATE TABLE</code> query. The table will have the following columns:</p><ul>
+<li>
+<code class="inline">id</code>: A unique id for the license row.</li>
+<li>
+<code class="inline">product_id</code>: The id of the product to which the license is linked.</li>
+<li>
+<code class="inline">license_key</code>: A string license key used as a password.</li>
+<li>
+<code class="inline">email</code>: The license owner's email address, which works as the user name.</li>
+<li>
+<code class="inline">valid_until</code>: The license's expiration date.</li>
+<li>
+<code class="inline">created_at</code>: The timestamp of when the license was created.</li>
+<li>
+<code class="inline">updated_at</code>: The timestamp of the most recent update.</li>
+</ul><p><strong>Lines 31–32</strong>: Use WordPress's database update method <code class="inline">dbDelta</code> to create or update the database table. Notice that dbDelta doesn't actually run the <code class="inline">CREATE TABLE</code> query as is, but analyzes it and compares it to the current table structure, doing modifications as necessary. </p><p>So, later, if you decide to make changes to the table's structure, instead of writing a new SQL query, you will just edit this <code class="inline">CREATE TABLE</code> query, update the <code class="inline">$db_version</code> parameter, and let dbDelta handle the rest. </p><p>For more information about creating database tables in WordPress and using <code class="inline">dbDelta</code>, read the article <a href="http://codex.wordpress.org/Creating_Tables_with_Plugins" target="_self">Creating Tables with Plugins</a> in the WordPress codex.</p><p>And that's it. The next time you activate the plugin, a database table for the licenses will be created. If you have already activated the plugin, you'll need to do it again (deactivate and then activate again) to create the database.</p><h3>Step 2: Create the License Menu Pages</h3><p>Now that we have created the database table for storing licenses, let's create the menu pages: "<strong>Licenses</strong>" and "<strong>Add new</strong>". </p><p>Again, we begin by hooking to the right action in <code class="inline">Wp_License_Manager</code>'s function <code class="inline">define_admin_hooks</code>:<br></p><pre class="brush: php noskimlinks noskimwords">$this-&gt;loader-&gt;add_action( 'admin_menu', $plugin_admin, 'add_licenses_menu_page' );</pre><p>The action function, <code class="inline">add_license_menu_page</code>, goes to <code class="inline">Wp_License_Manager_Admin</code> and looks like this:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Creates the settings menu and sub menus for adding and listing licenses.
+ */
+public function add_licenses_menu_page() {
+    add_menu_page(
+        __( 'Licenses', $this-&gt;plugin_name ),
+        __( 'Licenses', $this-&gt;plugin_name ),
+        'edit_posts',
+        'wp-licenses',
+        array( $this, 'render_licenses_menu_list' ),
+        'dashicons-lock',
+        '26.1'
+    );
+
+    add_submenu_page(
+        'wp-licenses',
+        __( 'Licenses', $this-&gt;plugin_name ),
+        __( 'Licenses', $this-&gt;plugin_name ),
+        'edit_posts',
+        'wp-licenses',
+        array( $this, 'render_licenses_menu_list' )
+    );
+
+    add_submenu_page(
+        'wp-licenses',
+        __( 'Add new', $this-&gt;plugin_name ),
+        __( 'Add new', $this-&gt;plugin_name ),
+        'edit_posts',
+        'wp-licenses-new',
+        array( $this, 'render_licenses_menu_new' )
+    );
+}</pre><p>Let's take a closer look: </p><p><strong>Lines 5–13: </strong>Create a top level menu page, with the title, "<strong>Licenses</strong>". The function, <code class="inline">add_menu_page</code>, takes the following parameters:</p><ol>
+<li>
+<code class="inline">$page_title</code>: The title of the menu page (HTML title tag value).  </li>
+<li>
+<code class="inline">$menu_title</code>: The on-screen title for the menu page.</li>
+<li>
+<code class="inline">$capability</code>: The capability required for viewing the page. I used <code class="inline">edit_posts</code>, but in the future, I'll probably consider adding a capability of my own in its place.</li>
+<li>
+<code class="inline">$menu_slug</code>: The identifier for the menu page, used in the page's URL.</li>
+<li>
+<code class="inline">$function</code>: The function that will handle the rendering of this menu page.</li>
+<li>
+<code class="inline">$icon_url</code>: This field can be used in many different ways, but I chose to go with the dashboard icons as explained earlier in this tutorial.</li>
+<li>
+<code class="inline">$position</code>: The placement of the menu item in the WordPress menu. A problem with using this parameter is that if two menu items have the same <code class="inline">$position</code> value, only one of them will be shown. According to WordPress documentation, using a decimal number, as we have done here, helps a little.</li>
+</ol><p><strong>Lines 15–22</strong>: Add a submenu for listing the licenses. The parameters for <code class="inline">add_submenu_page</code> are otherwise identical to those for <code class="inline">add_menu_page</code> but the first parameter should be the id of the top menu to which the submenu should be added. </p><p>Also worth noticing is that we point the first submenu to the same action function as the top menu. What this does is that when a user clicks on the top level menu, this first submenu is opened right away.</p><p><strong>Lines 24–31</strong>: The second submenu is the one we'll start with, the page for adding a new license. </p><p>To make the code run without errors, add two empty functions: </p><pre class="brush: php noskimlinks noskimwords">public function render_licenses_menu_list() {
+
+}
+
+public function render_licenses_menu_new() {
+
+}</pre><h3>Step 3: Create the Add New License Page</h3><p>With the two settings pages created, let's add the functionality to the first one, the "<strong>Add New License</strong>" page. </p><p>The page will look like this:</p><figure class="post_image"><img alt="Add New License page" src="https://cms-assets.tutsplus.com/uploads/users/343/posts/22621/image/img3.jpg"></figure><p>As we defined above, the function that will do the rendering for the <strong>Add new</strong> page is called <code class="inline">render_licenses_menu_new</code>. The function itself is simple, with most of its lines spent on populating a list of products that will be used for rendering a drop-down list:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Renders the list add new license menu page using 
+ * the "licenses_new.php" partial.
+ */
+public function render_licenses_menu_new() {
+    // Used in the "Product" drop-down list in view
+    $products = get_posts(
+        array(
+            'orderby'           =&gt; 'post_title',
+            'order'             =&gt; 'ASC',
+            'post_type'         =&gt; 'wplm_product',
+            'post_status'       =&gt; 'publish',
+            'nopaging'          =&gt; true,
+            'suppress_filters'  =&gt; true
+        )
+    );
+
+    require plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/licenses_new.php';
+}</pre><p><strong>Lines 7–16</strong>: Retrieve all published posts of our custom type <code class="inline">wplm_product</code>. </p><p><strong>Line 18:</strong> Include the partial that contains the HTML for this menu page.</p><p>And here's what goes inside the HTML template:</p><pre class="brush: php noskimlinks noskimwords">&lt;?php
+/**
+ * The view for the admin page used for adding a new license.
+ *
+ * @package    Wp_License_Manager
+ * @subpackage Wp_License_Manager/admin/partials
+ */
+?&gt;
+&lt;div class="wrap"&gt;
+    &lt;div id="icon-edit" class="icon32 icon32-posts-post"&gt;&lt;/div&gt;
+
+    &lt;h2&gt;&lt;?php _e( 'Add New License', $this-&gt;plugin_name ); ?&gt;&lt;/h2&gt;
+    &lt;p&gt;
+        &lt;?php
+            $instructions = 'Use this form to manually add a product license. '
+                . 'After completing the process, make sure to pass the license key to the customer.';
+
+            _e( $instructions, $this-&gt;plugin_name );
+        ?&gt;
+    &lt;/p&gt;
+
+    &lt;form action="&lt;?php echo admin_url( 'admin-post.php' ); ?&gt;" method="post"&gt;
+        &lt;?php wp_nonce_field( 'wp-license-manager-add-license', 'wp-license-manager-add-license-nonce' ); ?&gt;
+        &lt;input type="hidden" name="action" value="license_manager_add_license"&gt;
+
+        &lt;table class="form-table"&gt;
+            &lt;tr class="form-field form-required"&gt;
+                &lt;th scope="row"&gt;
+                    &lt;label for="email"&gt;
+                        &lt;?php _e( 'Email', $this-&gt;plugin_name ); ?&gt;
+                        &lt;span class="description"&gt;&lt;?php _e( '(required)', $this-&gt;plugin_name ); ?&gt;&lt;/span&gt;
+                    &lt;/label&gt;
+                &lt;/th&gt;
+                &lt;td&gt;
+                    &lt;input name="email" type="text" id="email" aria-required="true"&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr class="form-field form-required"&gt;
+                &lt;th scope="row"&gt;
+                    &lt;label for="email"&gt;
+                        &lt;?php _e( 'Product', $this-&gt;plugin_name ); ?&gt;
+                        &lt;span class="description"&gt;&lt;?php _e( '(required)', $this-&gt;plugin_name ); ?&gt;&lt;/span&gt;
+                    &lt;/label&gt;
+                &lt;/th&gt;
+                &lt;td&gt;
+                    &lt;select name="product" id="product" aria-required="true"&gt;
+                        &lt;?php foreach ( $products as $product ) : ?&gt;
+                            &lt;option value="&lt;?php echo $product-&gt;ID; ?&gt;"&gt;&lt;?php echo $product-&gt;post_title; ?&gt;&lt;/option&gt;
+                        &lt;?php endforeach; ?&gt;
+                    &lt;/select&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr class="form-field form-required"&gt;
+                &lt;th scope="row"&gt;
+                    &lt;label for="valid_until"&gt;
+                        &lt;?php _e( 'Valid until', $this-&gt;plugin_name ); ?&gt;
+                    &lt;/label&gt;
+                &lt;/th&gt;
+                &lt;td&gt;
+                    &lt;input name="valid_until" type="text" id="valid_until" aria-required="false" /&gt;
+                    &lt;p class="description"&gt;
+                        &lt;?php _e( '(Format: YYYY-MM-DD HH:MM:SS / Leave empty for infinite)', $this-&gt;plugin_name );?&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+
+        &lt;p class="submit"&gt;
+            &lt;input type="submit" name="add-license" class="button button-primary"
+                   value="&lt;?php _e( 'Add License', $this-&gt;plugin_name ); ?&gt;" &gt;
+        &lt;/p&gt;
+    &lt;/form&gt;
+
+&lt;/div&gt;</pre><p>It's a rather basic form, using a few CSS classes defined in the WordPress admin to make everything look the way a WordPress admin screen is supposed to look.</p><p>Some lines that you should pay attention to are:</p><p><strong>Line 22:</strong> When the user submits the form, it will be posted to WordPress's <code class="inline">admin-post.php</code>.</p><p><strong>Line 23:</strong> Just like with the meta box, add a <em>nonce</em> to make sure someone posting to add a license is actually doing so through this page.</p><p><strong>Line 24:</strong> Define a hidden field named <code class="inline">action</code> with the value <code class="inline">'license_manager_add_license'</code>. This field will be used for adding a handling function for the form's submission—we'll get to this next.</p><h3>Step 4: Save the License</h3><p>In the previous step, we created our "<strong>Add New License</strong>" form. Now's the time to create the functionality for saving it.</p><p>Go back to the function <code class="inline">define_admin_hooks</code> in <code class="inline">Wp_License_Manager</code> and add a new action:</p><pre class="brush: php noskimlinks noskimwords">$this-&gt;loader-&gt;add_action( 'admin_post_license_manager_add_license', $plugin_admin, 'handle_add_license' );</pre><p>This time, we use <code class="inline">admin_post_{action}</code>, a clever action for handling custom forms. </p><p>When a form with the hidden field <code class="inline">action</code> is posted, WordPress looks up the field's value and uses it to create call a matching action. The value we used for the hidden field was <code class="inline">"license_manager_add_license"</code> and so we can add an action with the name <code class="inline">admin_post_license_manager_add_license</code>. </p><p>The function, <code class="inline">handle_add_license</code>, goes to <code class="inline">Wp_License_Manager_Admin</code>:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Handler for the add_license action (submitting 
+ * the "Add New License" form).
+ */
+public function handle_add_license() {
+    global $wpdb;
+
+    if ( ! empty( $_POST )
+        &amp;&amp; check_admin_referer( 'wp-license-manager-add-license', 
+            'wp-license-manager-add-license-nonce' ) ) {
+
+        // Nonce valid, handle data
+
+        $email = sanitize_text_field( $_POST['email'] );
+        $valid_until = sanitize_text_field( $_POST['valid_until'] );
+        $product_id = intval( $_POST['product'] );
+        
+        $license_key = wp_generate_password( 24, true, false );
+
+        // Save data to database
+        $table_name = $wpdb-&gt;prefix . 'product_licenses';
+        $wpdb-&gt;insert(
+            $table_name,
+            array(
+                'product_id' =&gt; $product_id,
+                'email' =&gt; $email,
+                'license_key' =&gt; $license_key,
+                'valid_until' =&gt; $valid_until,
+                'created_at' =&gt; current_time( 'mysql' ),
+                'updated_at' =&gt; current_time( 'mysql' )
+            ),
+            array(
+                '%d',
+                '%s',
+                '%s',
+                '%s',
+                '%s',
+                '%s'
+            )
+        );
+
+        // Redirect to the list of licenses for displaying the new license
+        wp_redirect( admin_url( 'admin.php?page=wp-licenses' ) );
+    }
+}</pre><p>Let's go through the function to see what it does:</p><p><strong>Lines 8–10</strong>: Verify the nonce added in the HTML form. </p><p><strong>Lines 14–16</strong>: Collect and sanitize the submitted license data.</p><p><strong>Line 18</strong>: Generate a license key. In this plugin, we treat the license key like a password that is always used together with the user's email address, so I decided not to require license keys to be unique. WordPress's password generation function is a simple way to create a random password—probably not the most secure option of all time, but good enough.</p><p><strong>Lines 21–40</strong>: Save the data to our database table. The first parameter to the <code class="inline">insert</code> function in <code class="inline">$wpdb</code> is the name of the table. The second is an array with database columns and their values. The third specifies the types of the parameters for formatting the query (<code class="inline">%s</code> means a string and is quoted, numeric values specified with <code class="inline">%d</code> are left without quotes).</p><p><strong>Line 43</strong>: Redirect the user to the license list. We'll build it next.</p><h2>
+<span class="sectionnum">4.</span> List Licenses</h2><p>Now that we have saved some data for licenses, it's time for the last step in this tutorial: building the list for browsing licenses.</p><figure class="post_image"><img alt="Licenses page in plugin" src="https://cms-assets.tutsplus.com/uploads/users/343/posts/22621/image/img4.jpg"></figure><p>I always like to make my admin UIs look as much like the WordPress admin itself as I can, and so, when creating this list, I decided to go with the same code that the WordPress core uses for rendering its own lists: the <code class="inline">Wp_List_Table</code> class, described as a <em>"[b]ase class for displaying a list of items in an ajaxified HTML table" </em>in its PHPDoc documentation.</p><p>The class makes it very easy to create good looking list tables such as the one you see above in WordPress, but it comes with a caveat:</p><p>WordPress developers have documented the class as <code class="inline">@private</code>, meaning that they reserve the right to change it radically any time they please. In other words, using the class is a risk and means that you'll have to test your plugin carefully before any new WordPress release to make sure the lists are still working. </p><p>If that sounds too risky to you, there is another option: copy the current version of the class into your own project, rename it and use the copied file as your own list's base class. In the end, I decided to go with the copying option myself, to make sure everything works still in the future.</p><h3>Step 1: Create the List Table Class</h3><p>First, locate the <code class="inline">Wp_List_Table</code> class (it's in <code class="inline">wp-admin/includes/class-wp-list-table.php</code>) and copy it to your own project. Make sure to rename the class and file so they won't conflict with the original class from the WordPress core (for example <code class="inline">Wp_License_Manager_List_Table</code>).</p><p>Then, create a class of your own class to extend this base class. Call the class <code class="inline">Licenses_List_Table</code> and place it in the admin directory. Then add the following <code class="inline">require_once</code> lines to the function <code class="inline">load_dependencies</code> in <code class="inline">Wp_License_Manager</code>:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * The classes responsible for rendering the list of licenses.
+ */
+require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wp-license-manager-list-table.php';
+require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-licenses-list-table.php';
+</pre><p>Open your newly created class, <code class="inline">Licenses_List_Table</code>, and add a constructor that takes the text domain for localization as a parameter and a field for storing the value. This one doesn't need explanations:<br></p><pre class="brush: php noskimlinks noskimwords">class Licenses_List_Table extends Wp_License_Manager_List_Table {
+
+    /**
+    * The plugin's text domain.
+    * 
+    * @access  private
+    * @var     string  The plugin's text domain. Used for localization.
+    */
+    private $text_domain;
+
+    /**
+     * Initializes the WP_List_Table implementation.
+     *
+     * @param $text_domain  string  The text domain used for localizing the plugin.
+     */
+    public function __construct( $text_domain ) {
+        parent::__construct();
+
+        $this-&gt;text_domain = $text_domain;
+    }
+    
+}</pre><h3>Step 2: Define the List Columns</h3><p><code class="inline">Wp_List_Table</code> comes with a set of functions that we can override to define the data and formatting rules for the list. </p><p>Let's start by defining the columns to show in the list, their order, and the headers for each column. Add this function to the <code class="inline">Licenses_List_Table</code> class.</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Defines the database columns shown in the table and a 
+ * header for each column. The order of the columns in the 
+ * table define the order in which they are rendered in the list table.
+ *
+ * @return array    The database columns and their headers for the table.
+ */
+public function get_columns() {
+    return array(
+        'license_key' =&gt; __( 'License Key', $this-&gt;text_domain ),
+        'email'       =&gt; __( 'Email', $this-&gt;text_domain ),
+        'product_id'  =&gt; __( 'Product', $this-&gt;text_domain ),
+        'valid_until' =&gt; __( 'Valid Until', $this-&gt;text_domain ),
+        'created_at'  =&gt; __( 'Created', $this-&gt;text_domain )
+    );
+}</pre><p>Notice that the keys in the array need to match with the column names in the database table.</p><p>If we don't want to display the <code class="inline">created_at</code> column, we can easily hide it using the function <code class="inline">get_hidden_columns</code>:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Returns the names of columns that should be hidden from the list table.
+ * 
+ * @return array    The database columns that should not be shown in the table.
+ */
+public function get_hidden_columns() {
+    return array( 'created_at' );
+}</pre><p>Defining the columns that can be used for sorting the list data is done in a similar way:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Returns the columns that can be used for sorting the list table data. 
+ * 
+ * @return array    The database columns that can be used for sorting the table.
+ */
+public function get_sortable_columns() {
+    return array(
+        'email' =&gt; array( 'email', false ),
+        'valid_until' =&gt; array( 'valid_until', false )
+    );
+}</pre><p>Next, let's look at formatting the column data. Formatting can be done in one of two ways: either by defining a custom formatting function with the name <code class="inline">column_{column_name}</code> where <code class="inline">column_name</code> is the name of the column as listed in <code class="inline">get_columns</code> above, or by using a default renderer function, <code class="inline">column_default</code>.</p><p>Let's use <code class="inline">column_default</code> for the columns that are simply printed out. The function takes two parameters: the database row being handled (<code class="inline">$item</code>) and the name of the column (<code class="inline">$column_name</code>).</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Default rendering for table columns.
+ *
+ * @param $item         array   The database row being printed out.
+ * @param $column_name  string  The column currently processed.
+ * @return string       The text or HTML that should be shown for the column.
+ */
+function column_default( $item, $column_name ) {
+    switch( $column_name ) {
+        case 'email':
+        case 'created_at':
+            return $item[$column_name];
+
+        default:
+            break;
+    }
+
+    return '';
+}</pre><p>Then, let's take an example of the custom output functions. Looking at the plugin source code, you can see that I have created a bunch of those. </p><p>Here's an example, the renderer for the <code class="inline">valid_until</code> column:<br></p><pre class="brush: php noskimlinks noskimwords">/**
+ * Custom renderer for the valid_until field.
+ *
+ * @param $item     array   The database row being printed out.
+ * @return string   The text or HTML that should be shown for the column.
+ */
+function column_valid_until( $item ) {
+    $valid_until = $item['valid_until'];
+
+    if ($valid_until == '0000-00-00 00:00:00') {
+        return __( 'Forever', $this-&gt;text_domain );
+    }
+
+    return $valid_until;
+}</pre><p>This renderer displays "Forever" when the value of the field is <code class="inline">'0000-00-00 00:00:00'</code> and otherwise the value itself. You get the point.</p><h3>Step 3: Query List Data</h3><p>Now that we have defined the rendering settings for the list, let's add some data to the mix. This is done in the <code class="inline">WP_List_Table</code> function <code class="inline">prepare_items</code>. </p><p>Here's the function:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Populates the class fields for displaying the list of licenses.
+ */
+public function prepare_items() {
+    global $wpdb;
+    $table_name = $wpdb-&gt;prefix . 'product_licenses';
+
+    $columns = $this-&gt;get_columns();
+    $hidden = $this-&gt;get_hidden_columns();
+    $sortable = $this-&gt;get_sortable_columns();
+
+    $this-&gt;_column_headers = array( $columns, $hidden, $sortable );
+
+    // Pagination
+    $licenses_per_page = 20;
+    $total_items = $wpdb-&gt;get_var( "SELECT COUNT(id) FROM $table_name" );
+
+    $offset = 0;
+    if ( isset( $_REQUEST['paged'] ) ) {
+        $page = max( 0, intval( $_REQUEST['paged'] ) - 1 );
+        $offset = $page * $licenses_per_page;
+    }
+
+    $this-&gt;set_pagination_args(
+        array(
+            'total_items' =&gt; $total_items,
+            'per_page' =&gt; $licenses_per_page,
+            'total_pages' =&gt; ceil( $total_items / $licenses_per_page )
+        )
+    );
+
+    // Sorting
+    $order_by = 'email'; // Default sort key
+    if ( isset( $_REQUEST['orderby'] ) ) {
+        // If the requested sort key is a valid column, use it for sorting
+        if ( in_array( $_REQUEST['orderby'], array_keys( $this-&gt;get_sortable_columns() ) ) ) {
+            $order_by = $_REQUEST['orderby'];
+        }
+    }
+
+    $order = 'asc'; // Default sort order
+    if ( isset( $_REQUEST['order'] ) ) {
+        if ( in_array( $_REQUEST['order'], array( 'asc', 'desc' ) ) ) {
+            $order = $_REQUEST['order'];
+        }
+    }
+
+    // Do the SQL query and populate items
+    $this-&gt;items = $wpdb-&gt;get_results(
+        $wpdb-&gt;prepare( "SELECT * FROM $table_name ORDER BY $order_by $order LIMIT %d OFFSET %d", $licenses_per_page, $offset ),
+        ARRAY_A );
+}</pre><p>Let's go through the function to see what it does:</p><p><strong>Lines 8–12</strong>: Collect the column header and sorting information using the functions we created above.</p><p>After this, the remaining part is about querying data. </p><p><strong>Lines 15–22</strong>: Calculate pagination information. If the user has requested a page, the parameter <code class="inline">paged</code> contains the page number (starting from 1), so we can use it to calculate the offset for the SQL query.</p><p><strong>Lines 24–30</strong>: Pass the pagination information to the the list table so it can show the correct navigation buttons when rendering the table.</p><p><strong>Lines 33–46</strong>: Prepare the sort column and order based on user input.</p><p><strong>Lines 49–51</strong>: Use the variables defined earlier in the function to do a database query and populate the <code class="inline">$items</code> class variable.</p><p>And that's it: you have now created a paged and sortable table for displaying the licenses.</p><h3>Step 4: Use the List Table</h3><p>Earlier in this tutorial, we created an empty function for showing the contents of the <strong>Licenses</strong> page. Now that we have created the list table, we can fill that function (<code class="inline">render_licenses_menu_list</code> in <code class="inline">Wp_License_Manager_Admin</code>) and finally make the licenses visible:</p><pre class="brush: php noskimlinks noskimwords">/**
+ * Renders the list of licenses menu page using the "licenses_list.php" partial.
+ */
+public function render_licenses_menu_list() {
+    $list_table = new Licenses_List_Table( $this-&gt;plugin_name );
+    $list_table-&gt;prepare_items();
+
+    require plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/licenses_list.php';
+}</pre><p>The function first creates an instance of our class, <code class="inline">Licenses_List_Table</code>, then calls its function <code class="inline">prepare_items</code> (defined above) to initialize the data, and finally includes an HTML template to render the page. </p><p>This template also contains a call to <code class="inline">$list_table-&gt;display()</code>, which renders the list on the page:</p><pre class="brush: php noskimlinks noskimwords">&lt;?php
+/**
+ * The view for the admin page used for listing licenses.
+ *
+ * @package    Wp_License_Manager
+ * @subpackage Wp_License_Manager/admin/partials
+ */
+?&gt;
+
+&lt;div class="wrap"&gt;
+    &lt;h2&gt;
+        &lt;?php _e( 'Licenses', $this-&gt;plugin_name ); ?&gt;
+        &lt;a class="add-new-h2" href="&lt;?php echo admin_url( 'admin.php?page=wp-licenses-new' );?&gt;"&gt;
+            &lt;?php _e( 'Add new', $this-&gt;plugin_name ) ?&gt;
+        &lt;/a&gt;
+    &lt;/h2&gt;
+
+    &lt;?php $list_table-&gt;display(); ?&gt;
+&lt;/div&gt;</pre><h2>What's Next?</h2><p>We have now created a basic plugin for storing products and licenses. This is not where it ends, however.</p><p>In the second part of the tutorial series, we will continue working on the plugin and extend it with an API that your plugins and themes can use to check a user's license and download updates.</p><p>See you next time!</p></div></div></div></div><div class="layout__sidebar"><div class="ad view"><div class="ad__wrapper"><div class="ad__content" id="div-gpt-1379650391729-0"></div><div class="ad__label">Advertisement</div></div></div><div class="post__sidebar"><div class="post__sidebar-primary"><div class="post__series-info"></div><div class="post-meta"><img sizes="100px" alt="Preview for Create a License Controlled Theme and Plugin Update System, Part 1: The License Manager Plugin" class="post-meta__image" srcset="https://cms-assets.tutsplus.com/uploads/users/343/posts/22621/preview_image/preview_image.png 400w, https://thumbsplus.tutsplus.com/uploads/users/343/posts/22621/preview_image/preview_image.png?height=300&amp;width=300 300w, https://thumbsplus.tutsplus.com/uploads/users/343/posts/22621/preview_image/preview_image.png?height=200&amp;width=200 200w, https://thumbsplus.tutsplus.com/uploads/users/343/posts/22621/preview_image/preview_image.png?height=100&amp;width=100 100w" src="https://thumbsplus.tutsplus.com/uploads/users/343/posts/22621/preview_image/preview_image.png?height=100&amp;width=100" /><div class="post-meta__description"><div class="post-meta__item"><div class="post-meta__label">Difficulty:</div><div class="post-meta__value">Intermediate</div></div><div class="post-meta__item"><div class="post-meta__label">Length:</div><div class="post-meta__value">Long</div></div><div class="post-meta__item"><div class="post-meta__label">Categories:</div><div class="post-meta__value"><span class="post-meta__tag"><a class="post-meta__category-link" href="/categories/wordpress">WordPress</a></span><span class="post-meta__tag"><a class="post-meta__category-link" href="/categories/wordpress-plugins">WordPress Plugins</a></span><span class="post-meta__tag"><a class="post-meta__category-link" href="/categories/php">PHP</a></span><span class="post-meta__tag"><a class="post-meta__category-link" href="/categories/html">HTML</a></span><span class="post-meta__tag"><a class="post-meta__category-link" href="/categories/css">CSS</a></span><span class="post-meta__tag"><a class="post-meta__category-link" href="/categories/cms">CMS</a></span><span class="post-meta__tag"><a class="post-meta__category-link" href="/categories/web-development">Web Development</a></span></div></div><div class="post-meta__label">Translations Available:</div><div class="post-meta__translate-this-post">Tuts+ tutorials are translated by our community members. If you'd like to translate this post into another language,<a href="https://www.formstack.com/forms/envato-tuts__translate_a_tutorial?link%20to%20tutorial=http://code.tutsplus.com/tutorials/create-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621"> let us know! </a></div><div class="post-meta__resource-links"><a class="post-meta__resource-link post-meta__github-repo-link" href="https://github.com/tutsplus/wp-license-manager-client-tutorial">View on Github <i class="fa fa-github"></i></a></div></div></div><div class="instructor-bio view"><div class="instructor-bio__title">About <a class="instructor-bio__title-link" href="http://tutsplus.com/authors/jarkko-laine">Jarkko Laine</a></div><div class="instructor-bio__details"><a class="instructor-bio__title-link" href="http://tutsplus.com/authors/jarkko-laine"><img alt="" class="instructor-bio__image" src="//www.gravatar.com/avatar/a0174e1ada961278afb5837e8bb0f4f3?s=200&amp;d=https%3A%2F%2Fassets.tutsplus.com%2Fimages%2Fhub%2Favatar_default.png&amp;r=PG" /></a>I am a part-time writer-entrepreneur and a part-time stay-at-home dad — and a guy insanely interested in everything. Most of what I do is in some way related to creating things, be it in code, text, or using my hands.</div><a class="instructor-bio__expand-link" href="javascript:;">+ Expand Bio</a><a class="instructor-bio__collapse-link" href="javascript:;">- Collapse Bio</a></div><div class="post__ad"><div class="ad view"><div class="ad__wrapper"><div class="ad__content" id="div-gpt-1382314910331-0"></div><div class="ad__label">Advertisement</div></div></div></div></div><div class="post__sidebar-secondary"><div class="post__recommended-courses"><div class="suggested-course"><div class="suggested-course__title">Suggested Tuts+ Course</div><div class="suggested-course__video"><div class="lesson-video view" data-course-sku="CRS-200193" data-human-readable-id="CRS-200193_1.1_introduction" data-wistia-id="sqqmclptcc"><div class="lesson-video__wrapper"><div class="lesson-video__video" data-video-height="540" data-video-width="960"></div></div></div></div><a class="suggested-course__link" href="http://code.tutsplus.com/courses/introduction-to-wordpress-plugin-development?utm_source=Tuts+&amp;utm_medium=website&amp;utm_campaign=suggestedcoursevideo&amp;utm_content=sidebar&amp;WT.mc_id=Tuts+_website_suggestedcoursevideo_sidebar">Introduction to WordPress Plugin Development<span class="suggested-course__price">$15</span></a></div></div><div class="post__recommended-content"><div class="recommended-items"><div class="recommended-items__header">Related Tutorials</div><a href="http://code.tutsplus.com/tutorials/create-a-license-controlled-plugin-and-theme-update-system-part-3-doing-the-update--cms-22675?utm_source=Tuts+&amp;utm_medium=website&amp;utm_campaign=relatedtutorials&amp;utm_content=sidebar&amp;WT.mc_id=Tuts+_website_relatedtutorials_sidebar"><div class="recommended-items__item"><div class="recommended-items__preview-image-container"><img class="recommended-items__preview-image " src="https://cms-assets.tutsplus.com/uploads/users/343/posts/22675/preview_image/preview_image.png" alt="Preview image" /></div><div class="recommended-items__title">Create a License Controlled Plugin and Theme Update System, Part 3: Doing the Update </div><div class="recommended-items__topic topic-code">Code</div></div></a><a href="http://code.tutsplus.com/tutorials/create-a-license-controlled-plugin-and-theme-update-system-part-2-the-license-manager-api--cms-22674?utm_source=Tuts+&amp;utm_medium=website&amp;utm_campaign=relatedtutorials&amp;utm_content=sidebar&amp;WT.mc_id=Tuts+_website_relatedtutorials_sidebar"><div class="recommended-items__item"><div class="recommended-items__preview-image-container"><img class="recommended-items__preview-image " src="https://cms-assets.tutsplus.com/uploads/users/343/posts/22674/preview_image/preview_image.png" alt="Preview image" /></div><div class="recommended-items__title">Create a License Controlled Plugin and Theme Update System — Part 2: The License Manager API</div><div class="recommended-items__topic topic-code">Code</div></div></a><a href="http://code.tutsplus.com/tutorials/developing-plugins-for-your-wordpress-theme-framework--cms-21934?utm_source=Tuts+&amp;utm_medium=website&amp;utm_campaign=relatedtutorials&amp;utm_content=sidebar&amp;WT.mc_id=Tuts+_website_relatedtutorials_sidebar"><div class="recommended-items__item"><div class="recommended-items__preview-image-container"><img class="recommended-items__preview-image " src="https://cms-assets.tutsplus.com/uploads/users/227/posts/21934/preview_image/build-your-own-theme-framework-preview-image.png" alt="Build your own theme framework preview image" /></div><div class="recommended-items__title">Developing Plugins for Your WordPress Theme Framework</div><div class="recommended-items__topic topic-code">Code</div></div></a></div></div><div class="job-board-ad view"></div><div class="marketplace-items view"></div></div></div></div><footer class="post__footer"><div class="layout__content-with-sidebar"><div class="post__comments" id="comments"><div id="disqus_thread" name="disqus_thread"></div><script type="text/javascript">var disqus_category_id = "3496021";</script><script type="text/javascript">var disqus_shortname  = "tutshub";
+var disqus_identifier = "22621";
+var disqus_title      = "Create a License Controlled Theme and Plugin Update System, Part 1: The License Manager Plugin";
+var disqus_url        = "http://code.tutsplus.com/tutorials/create-a-license-controlled-theme-and-plugin-update-system-part-1-the-license-manager-plugin--cms-22621";
+var disqus_config     = function() {
+    this.language = "en";
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+
+(function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());</script></div></div><div class="layout__sidebar"><div class="ad view"><div class="ad__wrapper"><div class="ad__content" id="div-gpt-1379650407131-0"></div><div class="ad__label">Advertisement</div></div></div></div></footer></article></main></div><footer class="page-footer"><div class="page-footer__content"><div class="page-footer__header"><div class="page-footer__tuts-brand"><img alt="Tuts+" class="page-footer__tuts-logo-image tuts-logo" src="http://static.tutsplus.com/assets/tuts_logo-79176000c077f4191a2cfcc3b312b7ed.svg" /><span class="page-footer__tuts-brand-text">Teaching skills to millions worldwide.</span></div><div class="page-footer__counts"><div class="page-footer__count-item"><div class="page-footer__count-value">19,643</div><div class="page-footer__count-label">Tutorials</div><div class="page-footer__count-value">534</div><div class="page-footer__count-label">Video Courses</div></div></div></div><div class="page-footer__links-column"><div class="page-footer__section page-footer__section--first"><div class="page-footer__heading">Follow Us</div><a class="page-footer__social-link page-footer__facebook-link" href="https://www.facebook.com/tutsplus"><i class="fa fa-facebook"></i></a><a class="page-footer__social-link page-footer__twitter-link" href="https://twitter.com/tutsplus"><i class="fa fa-twitter"></i></a><a class="page-footer__social-link page-footer__googleplus-link" href="https://plus.google.com/108971748263060947124/posts"><i class="fa fa-google-plus"></i></a><a class="page-footer__social-link page-footer__pinterest-link" href="http://www.pinterest.com/tutsplus/"><i class="fa fa-pinterest"></i></a></div><div class="page-footer__section"><div class="page-footer__heading">Help and Support</div><div class="page-footer__support-item"><a class="page-footer__link" href="http://tutsplus.com/faq">FAQ</a></div><div class="page-footer__support-item"><a class="page-footer__link" href="http://tutsplus.com/terms-of-use">Terms of Use</a></div><div class="page-footer__support-item"><a class="page-footer__link" href="http://tutsplus.com/support">Contact Support</a></div><div class="page-footer__support-item"><a class="page-footer__link" href="http://tutsplus.com/about">About Tuts+</a></div><div class="page-footer__support-item"><a class="page-footer__link" href="http://tutsplus.com/advertise">Advertise</a></div><div class="page-footer__support-item"><a class="page-footer__link" href="http://tutsplus.com/teach">Teach at Tuts+</a></div><div class="page-footer__support-item"><a class="page-footer__link" href="http://www.envato.com/community/meetups">Meetups</a></div></div></div><div class="page-footer__email-column"><div class="page-footer__section page-footer__section--first"><div class="page-footer__newsletter-section"><div class="page-footer__heading">Email Newsletters</div><div class="page-footer__newsletter-description">Get Tuts+ updates, news, surveys &amp; offers.</div><form class="page-footer__newsletter-form" action="/weekly_digest_subscription_requests" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UwEs9v2xvwtIBSnKHwAYczrsRa8S7s9YdEVqXRxz8+6ZR0uQAW1JnSj3d1z+bi4xXdB3Bjf9BiknGYkRemiLDw==" /><input placeholder="Email Address" class="page-footer__newsletter-email-field" type="email" name="weekly_digest_subscription_request[email]" id="weekly_digest_subscription_request_email" /><button name="button" type="submit" class="page-footer__newsletter-submit">Subscribe</button></form><a class="page-footer__newsletter-privacy-policy-link page-footer__link" href="http://tutsplus.com/privacy-policy">Privacy Policy</a></div></div></div><div class="page-footer__right"><div class="page-footer__envato-product"><a href="http://studio.envato.com/?utm_source=tutsfooter&amp;utm_medium=banner&amp;utm_campaign=tutsfooter"><img alt="OPEN. New Services!" class="page-footer__envato-product-image page-footer__envato-product-image--studio" src="http://static.tutsplus.com/assets/open-new-services-140x112-0470de5e355e703301fc99a2d13a7b0f.png" /></a><div class="page-footer__envato-product-description">Custom digital services like logo design, WordPress installation, video production and more. <a class="page-footer__link page-footer__envato-product-link" href="http://studio.envato.com/?utm_source=tutsfooter&amp;utm_medium=banner&amp;utm_campaign=tutsfooter">Check out Envato Studio</a></div></div><div class="page-footer__envato-product"><a href="http://codecanyon.net/popular_item/by_category?category=php-scripts&amp;ref=tutshub&amp;utm_source=tutsplus&amp;utm_medium=footer&amp;utm_campaign=tutscode"><img alt="Buy photos as you need them" class="page-footer__envato-product-image page-footer__envato-product-image--marketplaces" src="http://static.tutsplus.com/assets/envato/codecanyon--pre-coded-php-a6b3249433df1cabb20eb6b33ebc16ea.jpg" /></a><div class="page-footer__envato-product-description">Build anything from social networks to file upload systems.  Build faster with pre-coded PHP scripts. <a class="page-footer__link page-footer__envato-product-link" href="http://codecanyon.net/popular_item/by_category?category=php-scripts&amp;ref=tutshub&amp;utm_source=tutsplus&amp;utm_medium=footer&amp;utm_campaign=tutscode">Browse PHP on CodeCanyon</a></div></div></div></div><div class="page-footer__envato-bar"><div class="page-footer__envato-bar-content"><div class="page-footer__copyright">© 2015 Envato Pty Ltd. Trademarks and brands are the property of their respective owners.</div><div class="page-footer__envato-logo"><a class="page-footer__envato-logo-link" href="http://www.envato.com/"><img alt="envato" class="page-footer__envato-logo-image" src="http://static.tutsplus.com/assets/envato_logo-bea126b87a05d98d331259dee204aac6.svg" /></a></div></div></div></footer><script src="http://static.tutsplus.com/assets/body-accd22a98257530998486b40017f16b0.js" async="async"></script><script src="//s.skimresources.com/js/1342X589339.skimlinks.js" type="text/javascript"></script></body></html>
